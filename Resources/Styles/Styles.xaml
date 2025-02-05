@@ -49,6 +49,10 @@
         </Setter>
     </Style>
 
+    <Style TargetType="Button" x:Key="CustomButtonStyle">
+        <Setter Property="BackgroundColor" Value="Red"/>
+    </Style>
+
     <Style TargetType="CheckBox">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
         <Setter Property="MinimumHeightRequest" Value="44"/>
@@ -65,6 +69,10 @@
                 </VisualStateGroup>
             </VisualStateGroupList>
         </Setter>
+    </Style>
+
+    <Style TargetType="CheckBox" x:Key="CustomCheckBoxStyle">
+        <Setter Property="Color" Value="Red"/>
     </Style>
 
     <Style TargetType="DatePicker">
@@ -132,6 +140,10 @@
         </Setter>
     </Style>
 
+    <Style TargetType="Entry" x:Key="CustomEntryStyle">
+        <Setter Property="TextColor" Value="Red"/>
+    </Style>
+
     <Style TargetType="Frame">
         <Setter Property="HasShadow" Value="False" />
         <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray950}}" />
@@ -178,6 +190,10 @@
                 </VisualStateGroup>
             </VisualStateGroupList>
         </Setter>
+    </Style>
+
+    <Style TargetType="Label" x:Key="CustomLabelStyle">
+        <Setter Property="TextColor" Value="Red"/>
     </Style>
 
     <Style TargetType="Span">
